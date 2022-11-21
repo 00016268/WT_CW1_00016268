@@ -194,3 +194,82 @@ header{
 .cars-container .box:hover h2{
     background: var(--bg-color)
 }
+
+.about{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-img{
+    flex: 1 1 21rem;
+}
+
+.about-text span{
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.about-text h2{
+    font-size: 1.7rem;
+}
+
+.about-text p{
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1.4rem;
+}
+
+.headingb{
+    text-align: center;
+
+}
+.headingb span{
+    font-weight: 500;
+    color: var(--main-color);
+}
+.headingb p{
+    font-size: 0.938rem;
+    font-weight: 300;
+}
+.bikes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.bikes-container .boxb{
+    flex: 1 1 17rem;
+    position: relative;
+    height: 200px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.bikes-container .boxb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+.bikes-container .boxb img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.bikes-container .boxb h2{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background: var(--bg-color);
+    padding: 8px;
+    border-radius: 0.5rem;
+
+}
+
+.bikes-container .boxb:hover h2{
+    background: var(--bg-color)
+}
